@@ -1,12 +1,12 @@
-#NVIDIA-NIM Chatbot with FAISS and LangChain Integration
+### NVIDIA-NIM Chatbot with FAISS and LangChain Integration
 
-##Overview:
+## Overview:
 The NVIDIA-NIM Chatbot is a Streamlit-based application designed to enable advanced question-answering using NVIDIA's Llama 3.1 Nemotron-70B model. This project integrates LangChain for seamless document processing, FAISS for efficient vector storage and retrieval, and NVIDIA embeddings for high-performance vectorization.
 
 The chatbot processes PDF documents, builds a searchable vector database, and delivers accurate responses based on the provided context. It also includes a feature for displaying document similarity, making it a valuable tool for research, education, and enterprise-level document analysis.
 In this project I have added a book on CCNA guide, therefore this helps me in clearing my querries in  computer networks
 
-##Features:
+## Features:
 * NVIDIA Embeddings: Utilizes NVIDIA's advanced embeddings for vectorization.
 * FAISS Vector Store: Efficiently indexes and retrieves relevant document chunks.
 * Document Loader: Automatically processes and parses PDF documents from a directory.
@@ -15,21 +15,21 @@ In this project I have added a book on CCNA guide, therefore this helps me in cl
 * Context-Based Responses: Provides answers strictly within the provided context.
 * Document Similarity Search: Displays related document sections for enhanced transparency.
 
-##Getting Started:
+## Getting Started:
 
 ##Prerequisites
 * Python 3.8 or higher
 * Dependencies: Install using the provided requirements.txt file.
 * NVIDIA API Key: Obtain an API key from NVIDIA's AI endpoints.
 
-##Code Structure:
+## Code Structure:
 
 * app.py: Main Streamlit application.
 * books/: Directory for storing PDF files to be processed.
 * requirements.txt: List of dependencies required for the project.
 * .env: Configuration file for environment variables (API key).
 
-##How It Works:
+## How It Works:
 
 --Document Embedding:
 Loads PDFs from the ./books directory.
@@ -45,13 +45,13 @@ Uses NVIDIA's Llama 3.1 model to generate a response based on the context.
 Users input questions through the Streamlit interface.
 The application retrieves the most relevant context and generates an answer.
 
-##Customization:
+## Customization:
 
 * Modify the chunk_size and chunk_overlap in the RecursiveCharacterTextSplitter configuration for different document types.
 * Adjust the LangChain prompt template in the ChatPromptTemplate for specific use cases.
 * Add additional preprocessing steps for documents if required.
 
-##Future Enhancements:
+## Future Enhancements:
 
 * Add support for additional file formats (e.g., DOCX, TXT).
 * Enhance scalability for larger datasets using distributed FAISS.
