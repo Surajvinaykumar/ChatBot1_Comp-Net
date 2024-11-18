@@ -15,19 +15,8 @@ In this project I have added a book on CCNA guide, therefore this helps me in cl
 * Context-Based Responses: Provides answers strictly within the provided context.
 * Document Similarity Search: Displays related document sections for enhanced transparency.
 
-## Getting Started:
+![CHatbot1-drawio](https://github.com/user-attachments/assets/a3ebbb31-0686-454d-9e50-d3c311c0321a)
 
-##Prerequisites
-* Python 3.8 or higher
-* Dependencies: Install using the provided requirements.txt file.
-* NVIDIA API Key: Obtain an API key from NVIDIA's AI endpoints.
-
-## Code Structure:
-
-* app.py: Main Streamlit application.
-* books/: Directory for storing PDF files to be processed.
-* requirements.txt: List of dependencies required for the project.
-* .env: Configuration file for environment variables (API key).
 
 ## How It Works:
 
@@ -44,6 +33,20 @@ Uses NVIDIA's Llama 3.1 model to generate a response based on the context.
 --Interactive Q&A:
 Users input questions through the Streamlit interface.
 The application retrieves the most relevant context and generates an answer.
+
+## Getting Started:
+
+##Prerequisites
+* Python 3.8 or higher
+* Dependencies: Install using the provided requirements.txt file.
+* NVIDIA API Key: Obtain an API key from NVIDIA's AI endpoints.
+
+## Code Structure:
+
+* app.py: Main Streamlit application.
+* books/: Directory for storing PDF files to be processed.
+* requirements.txt: List of dependencies required for the project.
+* .env: Configuration file for environment variables (API key).
 
 ## Customization:
 
