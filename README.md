@@ -1,4 +1,4 @@
-###NVIDIA-NIM Chatbot with FAISS and LangChain Integration
+#NVIDIA-NIM Chatbot with FAISS and LangChain Integration
 
 ##Overview:
 The NVIDIA-NIM Chatbot is a Streamlit-based application designed to enable advanced question-answering using NVIDIA's Llama 3.1 Nemotron-70B model. This project integrates LangChain for seamless document processing, FAISS for efficient vector storage and retrieval, and NVIDIA embeddings for high-performance vectorization.
