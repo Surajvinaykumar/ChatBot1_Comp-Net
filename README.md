@@ -6,6 +6,8 @@ The NVIDIA-NIM Chatbot is a Streamlit-based application designed to enable advan
 The chatbot processes PDF documents, builds a searchable vector database, and delivers accurate responses based on the provided context. It also includes a feature for displaying document similarity, making it a valuable tool for research, education, and enterprise-level document analysis.
 In this project I have added a book on CCNA guide, therefore this helps me in clearing my querries in  computer networks
 
+<img width="1140" alt="Screenshot 2024-11-18 at 1 59 10 PM" src="https://github.com/user-attachments/assets/e4750c0a-9005-4b64-bce2-bd7df95ba22a">
+
 ## Features:
 * NVIDIA Embeddings: Utilizes NVIDIA's advanced embeddings for vectorization.
 * FAISS Vector Store: Efficiently indexes and retrieves relevant document chunks.
